@@ -214,6 +214,74 @@ button:hover{
     to {opacity:1;}
 }
 </style>
+
+<style>
+/* ===== TERMINATE MOBILE OPTIMIZATION ===== */
+
+body {
+    min-height:100vh;
+    padding:15px !important;
+    overflow-x:hidden;
+}
+
+.panel {
+    width:100% !important;
+    max-width:900px !important;
+    padding:25px !important;
+}
+
+h1 {
+    font-size:clamp(1.4rem, 6vw, 2rem) !important;
+    letter-spacing:2px !important;
+}
+
+.subtitle {
+    font-size:clamp(.85rem, 3.5vw, 1rem) !important;
+}
+
+.status,
+.progress {
+    font-size:clamp(.85rem, 4vw, 1.1rem) !important;
+    word-break:break-word;
+}
+
+.epb-ending {
+    padding:15px !important;
+    margin-top:20px !important;
+}
+
+.epb-logo {
+    font-size:clamp(1.2rem, 6vw, 2rem) !important;
+    letter-spacing:2px !important;
+    word-break:break-word;
+}
+
+.case-close {
+    font-size:clamp(1.1rem, 5vw, 1.7rem) !important;
+}
+
+.progress-bar {
+    width:100%;
+    height:14px !important;
+}
+
+button {
+    width:100% !important;
+    padding:14px !important;
+    font-size:15px !important;
+}
+
+@media(max-width:480px){
+    .panel {
+        padding:15px !important;
+    }
+
+    .epb-ending {
+        font-size:13px;
+        line-height:1.7;
+    }
+}
+</style>
 </head>
 
 <body>
