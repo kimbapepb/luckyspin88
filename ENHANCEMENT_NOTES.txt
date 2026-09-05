@@ -1,0 +1,12 @@
+UPGRADE VERSION - ANTI JUDOL SECURITY SIMULATION
+
+Enhancements:
+1. Cyber grid background animation
+2. Security scan-line animation
+3. Interactive hover response
+4. Dynamic button feedback
+5. Better dashboard feeling
+6. Improved terminal atmosphere
+7. Responsive visual improvements
+
+Original text/content preserved.

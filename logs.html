@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUCKYSPIN88 - Security Logs</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:#050505;
+font-family:'Share Tech Mono', monospace;
+color:#00ff88;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+height:100vh;
+
+}
+
+.container{
+
+width:1100px;
+
+border:2px solid #00ff88;
+
+padding:30px;
+
+box-shadow:0 0 20px #00ff88;
+
+background:#111;
+
+}
+
+h1{
+
+text-align:center;
+
+margin-bottom:10px;
+
+}
+
+h3{
+
+text-align:center;
+
+color:white;
+
+margin-bottom:30px;
+
+}
+
+.logs{
+
+background:black;
+
+border:1px solid #00ff88;
+
+padding:20px;
+
+height:420px;
+
+overflow:auto;
+
+line-height:1.8;
+
+white-space:pre-line;
+
+}
+
+.buttons{
+
+margin-top:25px;
+
+display:flex;
+
+justify-content:space-between;
+
+}
+
+button{
+
+padding:15px 25px;
+
+background:black;
+
+color:#00ff88;
+
+border:1px solid #00ff88;
+
+cursor:pointer;
+
+font-size:16px;
+
+}
+
+button:hover{
+
+background:#00ff88;
+
+color:black;
+
+}
+
+#analysis{
+
+margin-top:25px;
+
+border:1px solid #00ff88;
+
+padding:20px;
+
+min-height:120px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+<div style="display:none" id="epb-case">
+CASE ID: EPB-LS88-2026
+AGENCY: Elite Protection Bureau Seoul
+TARGET: LUCKYSPIN88
+LOCATION: Gangseo-gu, Seoul
+</div>
+
+<div class="container">
+
+<h1>EPB SEOUL</h1>
+
+<h3>SECURITY LOG REVIEW</h3>
+
+<div class="logs">
+
+[08:00:12] INFO      Web service started
+
+[08:01:42] INFO      Administrator login successful
+
+[08:05:11] INFO      Scheduled backup completed
+
+[08:08:53] WARNING   User account locked after multiple failed logins
+
+[08:10:19] INFO      Password successfully reset
+
+[08:14:44] INFO      Configuration updated
+
+[08:18:02] WARNING   Unusual login time detected
+
+[08:23:55] INFO      Database optimization completed
+
+[08:29:14] WARNING   Large file download detected
+
+[08:34:07] INFO      Audit log exported
+
+[08:40:16] INFO      Session terminated
+
+</div>
+
+<div class="buttons">
+
+<button onclick="review()">
+Review Findings
+</button>
+
+<button onclick="nextPage()">
+Continue
+</button>
+
+</div>
+
+<div id="analysis">
+
+Select "Review Findings" to display the analyst summary.
+
+</div>
+
+</div>
+
+<script>
+
+function review(){
+
+document.getElementById("analysis").innerHTML=`
+
+SECURITY ANALYST NOTES
+
+• Multiple failed login attempts were observed.
+• A login occurred outside normal operating hours.
+• A large download should be verified against change records.
+• No confirmed breach is indicated from these logs alone.
+• Recommend further investigation and correlation with other evidence.
+
+`;
+
+}
+
+function nextPage(){
+
+window.location.href="report.html";
+
+}
+
+</script>
+
+</body>
+
+</html>

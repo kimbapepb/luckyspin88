@@ -1,0 +1,23 @@
+EPB SEOUL - LUCKYSPIN88 GITHUB PAGES READY
+
+Upload all files in this folder to your repository root.
+
+Required:
+1. Repository Settings
+2. Pages
+3. Deploy from Branch
+4. Select main branch / root folder
+
+Main file:
+index.html
+
+Features:
+- Responsive layout
+- EPB Seoul investigation theme
+- Interactive buttons
+- System effects
+- Voice notification support
+- Multi-page investigation flow
+
+Login password:
+notredame
