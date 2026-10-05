@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>html { visibility: hidden; }</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EPB Seoul | Transaction review</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="interactive.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body data-page="transaction">
+  <header><a class="brand" href="dashboard.html"><span class="mark">EPB</span><span>Elite Protection Bureau<small>Seoul · CYBER UNIT TERMINAL</small></span></a></header>
+  <div class="layout"><nav aria-label="Case navigation" id="navigation"></nav><main><div class="pagehead"><span class="eyebrow">LUCKYSPIN88 / TERMINATION OPERATION</span><h1>Transaction review</h1></div><div class="metrics"><section><span>Activity records</span><strong>1,248</strong></section><section><span>Analyzed in snapshot</span><strong>1,241</strong></section><section><span>Suspicious records</span><strong>7</strong></section><section><span>Risk classification</span><strong>HIGH</strong></section></div><section class="panel"><div class="sectionhead"><h2>Transaction activity</h2><input id="search" type="search" aria-label="Search transactions" placeholder="Search references…"></div><div class="table-wrapper"><table>
+
+<tr>
+<th>Time</th>
+<th>Reference</th>
+<th>Activity Type</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>08:20</td>
+<td>ACT-10452</td>
+<td>Routine Platform Activity</td>
+<td>Verified</td>
+</tr>
+
+<tr>
+<td>08:45</td>
+<td>ACT-10453</td>
+<td>Large Transaction Pattern</td>
+<td>Review</td>
+</tr>
+
+<tr>
+<td>09:02</td>
+<td>ACT-10454</td>
+<td>Administrative Action</td>
+<td>Verified</td>
+</tr>
+
+<tr>
+<td>09:14</td>
+<td>ACT-10455</td>
+<td>Manual Verification</td>
+<td>Pending</td>
+</tr>
+
+<tr>
+<td>09:31</td>
+<td>ACT-10456</td>
+<td>Platform Activity</td>
+<td>Verified</td>
+</tr>
+
+<tr>
+<td>09:42</td>
+<td>ACT-10457</td>
+<td>High Risk Pattern</td>
+<td>Review</td>
+</tr>
+
+</table></div><div id="selection" role="status">Optional: select a record to inspect its details.</div><button id="complete">Confirm transaction review →</button><p id="message" role="status"></p></section><section class="console-window" aria-label="Command terminal"><div class="console-title"><span>EPB://SEOUL/OPERATIONS</span><span id="consoleClock"></span></div><div id="consoleOutput" role="log" aria-live="polite"></div><form id="commandForm" autocomplete="off"><label for="commandInput">epb@seoul:~$</label><input id="commandInput" spellcheck="false" aria-label="Terminal command" placeholder="help"><button type="submit">RUN</button></form></section></main></div>
+  <footer>EPB – WITHIN EPBUREAUS USE ONLY.</footer>
+</body>
+</html>

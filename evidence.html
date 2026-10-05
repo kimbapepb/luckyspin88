@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>html { visibility: hidden; }</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EPB Seoul | Evidence desk</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="interactive.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body data-page="evidence">
+  <header><a class="brand" href="dashboard.html"><span class="mark">EPB</span><span>Elite Protection Bureau<small>Seoul · CYBER UNIT TERMINAL</small></span></a></header>
+  <div class="layout"><nav aria-label="Case navigation" id="navigation"></nav><main><div class="pagehead"><span class="eyebrow">LUCKYSPIN88 / TERMINATION OPERATION</span><h1>Evidence desk</h1></div><section class="panel"><h2>Evidence package</h2><p>Review all four supplied case exhibits, then seal the package. Exhibit IDs are case references.</p><div class="exhibits"><label class="exhibit"><input type="checkbox" data-exhibit="0"><span><b>Authentication Log</b><small>EV-01 · Case exhibit · Ready for review</small></span></label><label class="exhibit"><input type="checkbox" data-exhibit="1"><span><b>Database Snapshot</b><small>EV-02 · Case exhibit · Ready for review</small></span></label><label class="exhibit"><input type="checkbox" data-exhibit="2"><span><b>Transaction Summary</b><small>EV-03 · Case exhibit · Ready for review</small></span></label><label class="exhibit"><input type="checkbox" data-exhibit="3"><span><b>Audit Trail</b><small>EV-04 · Case exhibit · Ready for review</small></span></label></div><button id="seal">Validate & seal evidence</button><progress id="progress" value="0" max="100" hidden></progress><p id="message" role="status"></p></section><section class="console-window" aria-label="Command terminal"><div class="console-title"><span>EPB://SEOUL/OPERATIONS</span><span id="consoleClock"></span></div><div id="consoleOutput" role="log" aria-live="polite"></div><form id="commandForm" autocomplete="off"><label for="commandInput">epb@seoul:~$</label><input id="commandInput" spellcheck="false" aria-label="Terminal command" placeholder="help"><button type="submit">RUN</button></form></section></main></div>
+  <footer>EPB – WITHIN EPBUREAUS USE ONLY.</footer>
+</body>
+</html>
