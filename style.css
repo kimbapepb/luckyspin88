@@ -107,9 +107,7 @@ button:hover{
     line-height:1.6;
 }
 
-/* ========================= */
-/* Mobile & Tablet Responsive */
-/* ========================= */
+
 
 @media (max-width:768px){
 
@@ -170,7 +168,7 @@ button:hover{
 }
 
 
-/* ===== Interactive Enhancement Layer ===== */
+
 * {
     scroll-behavior: smooth;
 }
@@ -238,7 +236,7 @@ button:hover::after {
 }
 
 
-/* ===== ULTRA INTERACTIVE SECURITY UI ===== */
+
 
 body::before {
     content:"";
@@ -297,7 +295,7 @@ table tr:hover {
     50% {opacity:.5;}
 }
 
-/* Scan line effect */
+
 .terminal, #terminal, #result, #analysis {
     position:relative;
 }
@@ -320,7 +318,7 @@ table tr:hover {
 }
 
 
-/* ===== COMMAND CENTER UPGRADE ===== */
+
 
 body {
     overflow-x:hidden;
@@ -338,7 +336,7 @@ body {
     50% {opacity:.4;}
 }
 
-/* Fake radar animation */
+
 .radar {
     width:120px;
     height:120px;
@@ -373,7 +371,7 @@ body {
 }
 
 
-/* ===== GANGSEO SEOUL SOC THEME ===== */
+
 
 .seoul-panel {
     border:1px solid #00ff88;
