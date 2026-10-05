@@ -36,7 +36,6 @@ document.getElementById("password").addEventListener("keypress", function(event)
 });
 
 
-// ===== Interactive Enhancement Layer =====
 document.addEventListener("DOMContentLoaded", function(){
     document.querySelectorAll("button").forEach(btn=>{
         btn.addEventListener("click", function(){
@@ -55,7 +54,6 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 
-// ===== Advanced Interaction =====
 
 document.addEventListener("DOMContentLoaded",()=>{
 
@@ -84,7 +82,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 });
 
 
-// ===== SOC COMMAND CENTER FEATURES =====
+
 
 // System notification sound using Web Audio API
 function securityBeep(type="normal"){
@@ -107,14 +105,14 @@ function securityBeep(type="normal"){
     }catch(e){}
 }
 
-// Attach sound feedback
+
 document.addEventListener("click", function(e){
     if(e.target.tagName==="BUTTON"){
         securityBeep("normal");
     }
 });
 
-// Simulated system boot
+
 function systemBoot(target){
     const messages=[
         "INITIALIZING SECURITY MODULE...",
@@ -133,7 +131,7 @@ function systemBoot(target){
     },600);
 }
 
-// Auto activate if terminal exists
+
 window.addEventListener("load",()=>{
     const terminal=document.getElementById("terminal");
     if(terminal){
@@ -142,7 +140,6 @@ window.addEventListener("load",()=>{
 });
 
 
-// ===== GANGSEO SEOUL SECURITY OPERATION =====
 
 const operationEvents=[
 "08:00 DOMAIN IDENTIFIED - Gangseo-gu Seoul",
@@ -166,7 +163,6 @@ function startOperationTimeline(target){
 }
 
 
-// ===== EPB SEOUL SYSTEM VOICE =====
 function epbVoice(message){
     if(window.speechSynthesis){
         const voice=new SpeechSynthesisUtterance(message);
