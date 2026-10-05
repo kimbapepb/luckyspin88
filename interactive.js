@@ -1,5 +1,3 @@
-
-// Additional UI behavior
 function typeEffect(element, text, speed=25){
     let i=0;
     element.innerHTML="";
